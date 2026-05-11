@@ -1,0 +1,75 @@
+aid: suse
+name: SUSE
+description: >-
+  SUSE is a global provider of open source enterprise solutions including
+  SUSE Linux Enterprise Server (SLES), SUSE Rancher Prime for Kubernetes
+  management, SUSE Manager (SUMA) for Linux systems management, and SUSE
+  Edge and Security solutions. SUSE products expose REST and "A-REST" APIs
+  for automation, configuration, and integration. The SUSE Manager API and
+  Rancher API provide programmatic control over systems, clusters, and policies.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Linux
+  - Kubernetes
+  - Enterprise Linux
+  - Systems Management
+  - Open Source
+  - Container Management
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/suse/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: suse:suma-api
+    name: SUSE Manager API
+    description: >-
+      JSON-based "A-REST" API for SUSE Manager (SUMA), used to manage
+      systems, channels, configuration, errata, and users across Linux
+      infrastructure. Calls use GET for retrievals, POST for changes, and
+      POST to "delete" endpoints for deletions.
+    humanURL: https://documentation.suse.com/suma/4.3/api/suse-manager/index.html
+    baseURL: https://manager.example.com/rhn/manager/api
+    tags:
+      - Systems Management
+      - Linux
+      - SUSE Manager
+      - Configuration
+    properties:
+      - type: Documentation
+        url: https://documentation.suse.com/suma/4.3/api/suse-manager/index.html
+      - type: API Overview
+        url: https://documentation.suse.com/suma/5.0/en/suse-manager/reference/help/api-overview.html
+  - aid: suse:rancher-api
+    name: SUSE Rancher API
+    description: >-
+      REST API for SUSE Rancher Prime Kubernetes management platform, used
+      to manage clusters, projects, workloads, users, and policies. Supports
+      v3 API endpoints with bearer token authentication.
+    humanURL: https://documentation.suse.com/cloudnative/rancher-manager/latest/en/api/v3-rancher-api-guide.html
+    baseURL: https://rancher.example.com/v3
+    tags:
+      - Kubernetes
+      - Cluster Management
+      - Rancher
+    properties:
+      - type: Documentation
+        url: https://documentation.suse.com/cloudnative/rancher-manager/latest/en/api/v3-rancher-api-guide.html
+      - type: About the API
+        url: https://ranchermanager.docs.rancher.com/pages-for-subheaders/about-the-api
+
+common:
+  - type: Website
+    url: https://www.suse.com
+  - type: Documentation
+    url: https://documentation.suse.com/
+  - type: Pricing
+    url: https://www.suse.com/products/
+  - type: Sign Up
+    url: https://scc.suse.com/login
+  - type: GitHub
+    url: https://github.com/SUSE
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
