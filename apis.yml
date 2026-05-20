@@ -60,6 +60,8 @@ apis:
         url: https://ranchermanager.docs.rancher.com/pages-for-subheaders/about-the-api
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/suse
   - type: Website
     url: https://www.suse.com
   - type: Documentation
