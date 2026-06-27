@@ -68,7 +68,7 @@ common:
     url: https://documentation.suse.com/
   - type: Pricing
     url: https://www.suse.com/products/
-  - type: SignUp
+  - type: Signup
     url: https://scc.suse.com/login
   - type: GitHub
     url: https://github.com/SUSE
