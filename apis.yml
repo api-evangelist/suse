@@ -1,11 +1,11 @@
 aid: suse
+
 name: SUSE
-description: SUSE is a global provider of open source enterprise solutions including SUSE Linux Enterprise
-  Server (SLES), SUSE Rancher Prime for Kubernetes management, SUSE Manager (SUMA) for Linux systems management,
-  and SUSE Edge and Security solutions. SUSE products expose REST and "A-REST" APIs for automation, configuration,
-  and integration. The SUSE Manager API and Rancher API provide programmatic control over systems, clusters,
-  and policies.
+
+description: SUSE is a global provider of open source enterprise solutions, offering SUSE Linux Enterprise Server, SUSE Rancher Prime, SUSE Manager, SUSE Edge, and AI Factory. Its products expose REST and A-REST APIs for automation, configuration, and integration across Linux, Kubernetes, edge, and AI workloads. Documentation and developer portals provide comprehensive guides, reference, and SDKs.
+
 type: Index
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -17,6 +17,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -28,7 +29,9 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/suse.png
+
 tags:
 - Linux
 - Kubernetes
@@ -36,6 +39,7 @@ tags:
 - Systems Management
 - Open-Source
 - Container Management
+
 tags_raw:
 - Linux
 - Kubernetes
@@ -43,10 +47,67 @@ tags_raw:
 - Systems Management
 - Open Source
 - Container Management
+
 url: https://raw.githubusercontent.com/api-evangelist/suse/refs/heads/main/apis.yml
+
 created: '2026-05-11'
+
 modified: '2026-09-16'
+
 specificationVersion: '0.23'
+
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+
+common:
+- type: Authentication
+  url: authentication/suse-authentication.yml
+- type: LLMsTxt
+  url: llms/suse-llms.txt
+- type: SecurityTxt
+  url: well-known/suse-suse-security.txt
+- type: SecurityTxt
+  url: well-known/suse-security.txt
+- type: WellKnown
+  url: well-known/suse-well-known.yml
+- type: Hosts
+  url: hosts/suse-hosts.yml
+- type: Vendors
+  url: vendors/suse-vendors.yml
+- type: SDKs
+  url: packages/suse-packages.yml
+- type: Packages
+  url: packages/suse-packages.yml
+- type: TermsOfService
+  url: https://www.suse.com/company/legal/terms-of-use/
+- type: Support
+  url: https://support.suse.com/
+- type: StatusPage
+  url: https://status.suse.com/
+- type: Security
+  url: https://www.suse.com/support/security/
+- type: Newsroom
+  url: https://www.suse.com/news/
+- type: Login
+  url: https://www.suse.com/saml2/login/?returnUrl=https%3a%2f%2fwww.suse.com%2f
+- type: Leadership
+  url: https://www.suse.com/leadership/
+- type: GettingStarted
+  url: https://documentation.suse.com/appliance/kiwi-9/html/kiwi/quick-start.html
+- type: Documentation
+  url: https://documentation.suse.com/
+- type: GitHubOrganization
+  url: https://github.com/SUSE
+- type: Website
+  url: https://suse.com
+- type: VulnerabilityDisclosure
+  url: security/suse-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/suse-domain-security.yml
+- url: https://www.suse.com/c/feed/
+  type: Blog
+
 apis:
 - aid: suse:suma-api
   name: SUSE Manager API
@@ -80,15 +141,18 @@ apis:
     url: https://documentation.suse.com/cloudnative/rancher-manager/latest/en/api/v3-rancher-api-guide.html
   - type: About the API
     url: https://ranchermanager.docs.rancher.com/pages-for-subheaders/about-the-api
-common:
-- type: Website
-  url: https://suse.com
-- type: VulnerabilityDisclosure
-  url: security/suse-vulnerability-disclosure.yml
-- type: DomainSecurity
-  url: security/suse-domain-security.yml
-- url: https://www.suse.com/c/feed/
-  type: Blog
-maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+
+x-coverage:
+  state: gated
+  reason: partner-login
+  detail: API endpoints return 401 Unauthorized, indicating authentication required.
+  evidence:
+    - url: https://api.suse.com/openapi.json
+      status: 401
+  checked: '2026-10-03'
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

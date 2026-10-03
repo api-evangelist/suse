@@ -1,0 +1,44 @@
+generated: '2026-10-03'
+method: probed
+source: https://www.suse.com/company/legal/
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://www.suse.com/company/legal/
+        http_status: 200
+        fetched: "true"
+        quote: "To request access to or deletion of your personal data, please use our Data Subject Request Form."
+        url: https://privacyportal.onetrust.com/webform/8dbe264e-9e4e-4ec2-9cea-d3392eb265ee/e9f1f6d6-d5e0-42d5-921a-1703d1794176
+        note: Provides a web form for data subject access and deletion requests.
+  subprocessors:
+    evidence:
+      - source: https://www.suse.com/company/legal/
+        http_status: 200
+        fetched: "true"
+        quote: "We use external service providers to support our business operations and to deliver our services. These providers process personal data on our behalf and under our instructions, subject to contractual confidentiality, security, and data protection obligations."
+        url: https://www.suse.com/company/legal/
+        note: Describes use of subprocessors with contractual safeguards.
+  incident_notification:
+    evidence:
+      - source: https://www.suse.com/company/legal/
+        http_status: 200
+        fetched: "true"
+        quote: "Access to compliance and investigation data is strictly limited and subject to confidentiality requirements. Data may be disclosed to regulators, courts, or external advisors where required or permitted by law."
+        url: https://www.suse.com/company/legal/
+        note: Indicates possible disclosure to regulators, implying incident handling.
+  ai_transparency:
+    evidence:
+      - source: https://www.suse.com/company/legal/
+        http_status: 200
+        fetched: "true"
+        quote: "Rights related to automated decision-making – you have the right not to be subject to decisions based solely on automated processing that have legal or similarly significant effects on you. We do not carry out such automated decision-making in a way that produces significant effects."
+        url: https://www.suse.com/company/legal/
+        note: Provides AI transparency rights.
+  data_retention:
+    evidence:
+      - source: https://www.suse.com/company/legal/
+        http_status: 200
+        fetched: "true"
+        quote: "Unsuccessful candidate records: up to 9 months after the selection process ends (subject to local variations). Prospect records: up to 6 months."
+        url: https://www.suse.com/company/legal/
+        note: States retention periods for candidate and prospect records.
