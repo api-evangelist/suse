@@ -34,7 +34,7 @@ tags:
 - Kubernetes
 - Enterprise Linux
 - Systems Management
-- Open-Source
+- Open Source
 - Container Management
 tags_raw:
 - Linux
@@ -43,6 +43,7 @@ tags_raw:
 - Systems Management
 - Open Source
 - Container Management
+- Open-Source
 url: https://raw.githubusercontent.com/api-evangelist/suse/refs/heads/main/apis.yml
 created: '2026-05-11'
 modified: '2026-09-16'
