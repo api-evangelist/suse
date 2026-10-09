@@ -1,0 +1,43 @@
+generated: '2026-10-03'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/SUSE
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (security/suse-domain-security.yml,
+  security/suse-vulnerability-disclosure.yml, suse.com) or its accepted GitHub org (SUSE).'
+packages:
+- name: libpulp
+  registry: github
+  url: https://github.com/SUSE/libpulp
+  language: C
+  official: true
+  version: null
+  published: '2026-10-01'
+  source_repo: https://github.com/SUSE/libpulp
+  evidence: repository in github.com/SUSE, whose profile names the provider's domain
+- name: doc-liberty
+  registry: github
+  url: https://github.com/SUSE/doc-liberty
+  language: ''
+  official: true
+  version: null
+  published: '2026-10-01'
+  source_repo: https://github.com/SUSE/doc-liberty
+  evidence: repository in github.com/SUSE, whose profile names the provider's domain
+- name: suse-ai-node-ansible
+  registry: github
+  url: https://github.com/SUSE/suse-ai-node-ansible
+  language: Jinja
+  official: true
+  version: null
+  published: '2026-09-28'
+  source_repo: https://github.com/SUSE/suse-ai-node-ansible
+  evidence: repository in github.com/SUSE, whose profile names the provider's domain
+- name: salt-netapi-client
+  registry: github
+  url: https://github.com/SUSE/salt-netapi-client
+  language: Java
+  official: true
+  version: null
+  published: '2026-07-07'
+  source_repo: https://github.com/SUSE/salt-netapi-client
+  evidence: repository in github.com/SUSE, whose profile names the provider's domain
