@@ -12,7 +12,7 @@
   channel: distribution
   evidence: https://aws.amazon.com/marketplace/seller-profile?id=d8e49cc8-b2f8-448d-8531-fc8e873121b0
   source: edge
-  relationship: platform-app
+  relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
 - slug: suse-microsoft-azure-marketplace
@@ -24,6 +24,6 @@
   channel: distribution
   evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=SUSE
   source: edge
-  relationship: platform-app
+  relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
