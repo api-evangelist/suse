@@ -1,0 +1,117 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+- https://azuremarketplace.microsoft.com/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=d8e49cc8-b2f8-448d-8531-fc8e873121b0
+  listing_count: 4
+  apps:
+  - SUSE Rancher for AWS, Multi-Cluster Kubernetes Management for Amazon EKS
+  - SUSE Cloud Marketplace Program
+  - SUSE Cloud Observability - 10 to 100 Hosts
+  - SUSE Cloud Observability - over 100 Hosts
+  seller_name: SUSE
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=1595dc13-315b-4349-8640-bf36795ae787
+  listing_count: 4
+  apps:
+  - SUSE Cloud Marketplace Program (EMEA Orders Only)
+  - SUSE Rancher for AWS (EMEA Orders Only)
+  - SUSE Cloud Observability - 10 to 100 Hosts (EMEA Orders Only)
+  - SUSE Cloud Observability - over 100 Hosts (EMEA Orders Only)
+  seller_name: SUSE (EMEA)
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=SUSE
+  listing_count: 79
+  apps:
+  - SUSE Linux Enterprise Micro 5.5 - BYOS
+  - SUSE Linux Enterprise Micro 5.5 for Arm64 - BYOS
+  - SUSE Linux Enterprise Micro 5.5
+  - SUSE Linux Enterprise Micro 5.5 for Arm64
+  - SUSE Linux Enterprise HPC 15 SP6 - BYOS
+  seller_name: SUSE
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=SUSE%20%28EMEA%29
+  listing_count: 3
+  apps:
+  - SUSE Manager 4.3 with 24x7 Support (EMEA Orders Only)
+  - SUSE Multi-Linux Manager 5.0 with 24x7 Support (EMEA Orders Only)
+  - SUSE Multi-Linux Manager 5.0 with 24x7 Support for Arm64 (EMEA Orders Only)
+  seller_name: SUSE (EMEA)
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=SUSE%20%28EMEA%29
+  listing_count: 6
+  apps:
+  - SUSE Linux Micro 6.1 for Arm64 (EMEA Orders Only)
+  - SUSE Linux Enterprise (SLE) Micro 6.0 for Arm64 (EMEA Orders Only)
+  - SUSE Linux Enterprise (SLE) Micro 5.5 for Arm64 (EMEA Orders Only)
+  - SUSE Linux Micro 6.1 (EMEA Orders Only)
+  - SUSE Linux Enterprise (SLE) Micro 6.0 (EMEA Orders Only)
+  seller_name: SUSE (EMEA)
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=SUSE%20%28NA%20and%20ROW%29
+  listing_count: 5
+  apps:
+  - openSUSE Leap arm64
+  - openSUSE Leap x86_64
+  - SUSE Multi-Linux Support Liberty Linux 9 - BYOS
+  - SUSE Multi-Linux Support Liberty Linux 8 - BYOS
+  - SUSE Multi-Linux Support Liberty Linux 10 - BYOS
+  seller_name: SUSE (NA and ROW)
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
