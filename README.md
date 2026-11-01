@@ -1,4 +1,4 @@
-# Suse (suse)
+# SUSE
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-API and integration profile for Suse.
+SUSE is a global provider of open source enterprise solutions including SUSE Linux Enterprise Server (SLES), SUSE Rancher Prime for Kubernetes management, SUSE Manager (SUMA) for Linux systems management, and SUSE Edge and Security solutions. SUSE products expose REST and "A-REST" APIs for automation, configuration, and integration. The SUSE Manager API and Rancher API provide programmatic control over systems, clusters, and policies.
+
+**Areas:** Linux · Kubernetes · Enterprise Linux · Systems Management · Open Source · Container Management
+
+## SUSE on APIs.io
+
+Everything profiled for SUSE is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/suse/](https://apis.io/providers/suse/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SUSE Manager API](https://apis.io/apis/suse/suma-api/) — JSON-based "A-REST" API for SUSE Manager (SUMA), used to manage systems, channels, configuration, errata, and users across Linux infrastructure. Calls use…
+- [SUSE Rancher API](https://apis.io/apis/suse/rancher-api/) — REST API for SUSE Rancher Prime Kubernetes management platform, used to manage clusters, projects, workloads, users, and policies. Supports v3 API endpoints…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Suse Authentication](https://apis.io/security/suse/suse-authentication/)
+- [Suse Domain Security](https://apis.io/security/suse/suse-domain-security/)
+- [Suse Vulnerability Disclosure](https://apis.io/security/suse/suse-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://suse.com)
+- [Blog](https://www.suse.com/c/feed/)
+
+## API Evangelist rating
+
+**Kin Score 9.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/suse/](https://apis.io/providers/suse/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SUSE: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/suse/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
